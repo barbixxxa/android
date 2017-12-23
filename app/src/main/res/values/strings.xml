@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App Demo</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+</resources>
