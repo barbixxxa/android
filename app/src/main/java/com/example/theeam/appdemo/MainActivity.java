@@ -5,16 +5,20 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     public void loginClicked(View view){
         EditText username = findViewById(R.id.username); //recebe o username
-        EditText password = (EditText) findViewById(R.id.password); //recebe o password
+        EditText password = findViewById(R.id.password); //recebe o password
 
         Log.i("username", username.getText().toString()); //printa no log o username
         Log.i("password", password.getText().toString()); //printa no log o password
+
+        ImageView profilePic = findViewById(R.id.profilePic);
+        profilePic.setImageResource(R.drawable.t1);
 
         Toast.makeText(this, "Welcome, " + username.getText().toString(), Toast.LENGTH_LONG).show();
 
