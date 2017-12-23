@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BitcoinReal Converter</string>
+    <string name="type_the_amount_in_real_r">Type the Amount in Real (R$)</string>
+    <string name="convert_to_btc">Convert to BTC</string>
+    <string name="todo">TODO</string>
+    <string name="amount_in_r">Amount in R$</string>
+</resources>
